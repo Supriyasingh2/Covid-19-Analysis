@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <title>COVID - 19</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+      <div class="logo"><span id="toggler"></span> COVID</div>
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="index.html" class="navlink"> Overview</a>
+          </li>
+          <li>
+            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov"
+              class="navlink">WHO</a>
+          </li>
+          <li>
+            <a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/testing.html" class="navlink">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main class="main">
+      <div class="container">
+        <div class="head">
+          <h1><span>COVID-19 WORLDWIDE</h1>
+        </div>
+        <div class="global-status">
+          <div class="row">
+            <div class="col-3">
+              <div class="status-box">
+                <h3>Total Confirmed</h3>
+                <h3 class="total">0</h3>
+                <p>World Wide</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="status-box">
+                <h3>Active Cases</h3>
+                <h3 class="active">0</h3>
+                <p>World Wide</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="status-box">
+                <h3>Recoverd</h3>
+                <h3 class="recoverd">0</h3>
+                <p>World Wide</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="status-box">
+                <h3>Death</h3>
+                <h3 class="death">0</h3>
+                <p>World Wide</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map-container">
+          <aside class="country">
+            <div class="search-box">
+              <input type="text" placeholder="Search Country" id="searchByCountry" />
+            </div>
+            <div class="country-list">
+              <ul>
+                <li class="country-data"><span>0</span> India</li>
+                <li class="country-data"><span>0</span> Albania</li>
+                <li class="country-data"><span>0</span> Algeria</li>
+                <li class="country-data"><span>0</span> Andorra</li>
+                <li class="country-data"><span>0</span> Angola</li>
+                <li class="country-data"><span>0</span> Argentina</li>
+                <li class="country-data"><span>0</span> Armenia</li>
+                <li class="country-data"><span>0</span> Australia</li>
+                <li class="country-data"><span>0</span> Bahamas</li>
+                <li class="country-data"><span>0</span> Belguim</li>
+              </ul>
+            </div>
+          </aside>
+          <div class="stats">
+            <div class="chart" id="chart">
+              <canvas id="myChart" width="100"></canvas>
+            </div>
+          </div>
+        </div>
+    </main>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
