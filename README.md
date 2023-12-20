@@ -21,5 +21,6 @@ This project is built using the following technologies:
 - Navigate to the project directory: cd Covid-19-Analysis
 - Open the <a href="index.html">index.html</a> file in your preferred web browser.
 
+  ## Home Page :-
   
 <img src= "Screenshot%20(196).png">
