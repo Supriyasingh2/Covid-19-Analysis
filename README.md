@@ -15,5 +15,11 @@ This project is built using the following technologies:
     <img style="width:5%;height:5%;"src="https://github.com/Alipakkr/Project-quasar-7896/blob/main/git.png">
 </div>
 
+## Installation :-
 
+- Clone the repository: git clone <a href="https://github.com/Supriyasingh2/Covid-19-Analysis.git">https://github.com/Supriyasingh2/Covid-19-Analysis.git</a>
+- Navigate to the project directory: cd Covid-19-Analysis
+- Open the <a href="index.html">index.html</a> file in your preferred web browser.
+
+  
 <img src= "Screenshot%20(196).png">
