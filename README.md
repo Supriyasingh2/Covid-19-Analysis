@@ -4,6 +4,8 @@
 
 A simple website to display current covid-19 cases in the world which include total confirmed, active cases, recovered cases, and total death.
 
+<a href="https://darling-chebakia-99924a.netlify.app/">Live Link</a>
+
 ## Tech Stacks Used :-
 
 This project is built using the following technologies:
